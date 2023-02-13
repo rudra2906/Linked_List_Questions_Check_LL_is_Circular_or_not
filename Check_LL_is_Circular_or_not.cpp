@@ -117,7 +117,7 @@ bool loopIsPresent(Node* &head)
         return false;
     }
 }
-//this is to test the new line of git hub
+
 Node* floydDetectLoop( Node* &head )
 {
     //  empty node
