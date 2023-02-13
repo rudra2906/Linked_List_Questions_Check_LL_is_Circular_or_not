@@ -118,6 +118,7 @@ bool loopIsPresent(Node* &head)
     }
 }
 
+//this is important algorithm
 Node* floydDetectLoop( Node* &head )
 {
     //  empty node
@@ -152,8 +153,8 @@ Node* floydDetectLoop( Node* &head )
 int main()
 {
     Node* head = NULL;
-    insertionAtElement(head,1,2);
-    insertionAtElement(head,2,3);
+    insertionAtElement(head,1,9);
+    insertionAtElement(head,9,3);
     insertionAtElement(head,3,4);
     insertionAtElement(head,2,5);
 
